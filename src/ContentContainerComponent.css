@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.swiper-wrapper {
+    padding-bottom: 72px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+   visibility: hidden;
+}
+.services-section {
+    background-image: radial-gradient(circle, rgba(255, 242, 239, 1) 0%, rgba(255, 242, 239, 1) 80%, rgba(255, 242, 239, 1) 100%);
+}
+
+.services-section .dotted-bg {
+    background-image: url('https://crosspapers.com/images/demo-marketing-dot.svg');
+    background-repeat: repeat;
+}
+
+.mobile-menu {
+    position: fixed;
+    width: 100%;
+    z-index: 12;
+    top: 100px;
+    left: 0;
+    background-color: #ffffff;
+    height: 100vh;
+
+}

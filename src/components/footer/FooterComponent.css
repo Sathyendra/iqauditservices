@@ -1,0 +1,6 @@
+@import "tailwindcss";
+footer {
+    @apply bg-black;
+    background-image: url('https://crosspapers.com/images/demo-marketing-dot.svg');
+    background-repeat: repeat;
+}
